@@ -1,4 +1,4 @@
-<template>
+ <template>
     <ul>
         <learning-resource 
         v-for="res in resources" 
@@ -14,7 +14,7 @@
 import LearningResource from './LearningResource.vue';
 
 export default {
-    props: ['resources'],
+    inject: ['resources'],
     components: {
         LearningResource
     }

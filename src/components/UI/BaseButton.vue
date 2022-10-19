@@ -1,13 +1,13 @@
 <template>
-    <button :type="type" :class="mode">
+    <button>
         <slot></slot>
     </button>
 </template>
 
 <script>
-export default{
+/* export default{
     props: ['type', 'mode']
-}
+} */
 </script>
 
 <style scoped>
